@@ -1,0 +1,15 @@
+{
+  "name": "fantastisch_server",
+  "private": true,
+  "dependencies": {
+    "express": "^4.16.4",
+    "ip": "^1.1.5",
+    "socket.io": "^2.1.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "now": {
+    "alias": "fantastisch_server"
+  }
+}
